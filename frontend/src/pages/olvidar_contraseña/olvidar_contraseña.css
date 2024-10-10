@@ -1,0 +1,33 @@
+.ppal{
+    background-color: #e6e3e3;
+    min-height: 818px;
+}
+
+form{
+    min-height: 250px;  
+}
+
+.login .btn{
+    background-color: #a0abc8;
+    border-color: #a0abc8;
+    color: black;
+    font-weight: bolder;
+}
+
+.login .btn:hover{
+    background-color: black;
+    border-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+.login .btn:active{
+    background-color: black;
+    border-color: black;
+    color: white;
+    font-weight: bolder;
+}
+
+.enlace{
+    color: black;
+}

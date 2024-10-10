@@ -1,0 +1,56 @@
+.contenedor{
+    background-color:#e6e3e3 ;
+    height: max-content;
+}
+
+.secciones{
+    background-color: #a0abc8;
+    height: min-content;
+}
+
+.carousel{
+    width: 90%;
+}
+
+.carta{
+    width: 18rem;
+    background-color: #726d6d;
+}
+
+.card img{
+    width: 80%;
+    height: 200px;
+    
+}
+
+.card-title{
+    color: white;
+}
+
+.card-text{
+    color: black;
+    font-weight: bolder;
+}
+
+.card .btn{
+    color: black;
+    font-weight: bolder;
+    background-color: #a0abc8;
+    border-color: #a0abc8;
+}
+
+.card .btn:active{
+    color: white;
+    font-weight: bolder;
+    background-color: black;
+    border-color: black;
+}
+
+.marcas{
+    width: 200px;
+    height: min-content;
+}
+
+#carouselExample{
+    height: 200px;
+}
