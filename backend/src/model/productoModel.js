@@ -1,14 +1,12 @@
 import { sql } from "../config/connection.js";
 
-const getProductos = async () =>{
-    try {
-        
-        const productos = await sql.query("SELECT * FROM tblproducto");
-        return productos.recordset;
+const getProductos = async () => {
+  try {
+    const productos = await sql.query('SELECT codigoProducto, nombreProducto FROM tblProducto');
+    return productos.recordset;
+  } catch (error) {
+    console.log("Error de consulta:", error);
+  }
+};
 
-    } catch (error) {
-        throw error;
-    }
-}
-
-export{getProductos}
+export { getProductos };

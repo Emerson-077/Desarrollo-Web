@@ -11,7 +11,7 @@ import Visitanos_login from "../pages/visitanos_login/visitanos_login"
 import Corporativo_login from "../pages/corporativo_login/corporativo_login"
 import MiCuenta from "../pages/MiCuenta/MiCuenta"
 import Favoritos from "../pages/Favoritos/Favoritos"
-import "bootstrap"
+import ListarProductos from "../pages/listarProductos"
 const router = () => {
   return (
     <Routes>
@@ -27,6 +27,8 @@ const router = () => {
       <Route path="/Corporativo_login" element={<Corporativo_login/>}/>
       <Route path="/MiCuenta" element={<MiCuenta/>} />
       <Route path="/Favoritos" element={<Favoritos/>} />
+      <Route path="/listarProductos" element={<ListarProductos/>}/>
+
     </Routes>
   )
 }
